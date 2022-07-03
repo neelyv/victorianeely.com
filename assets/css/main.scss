@@ -28,17 +28,10 @@ ol ol {
 	list-style-type: lower-alpha;
 }
 
-@media screen and (max-width:600px) { 
-    #container {
-        width: 100%;
-    }
-}
-
 /* || Sitewide */
 #container {
     width: 70%;
     margin: 0 auto 3em auto;
-    padding: .2em;
 }
 
 /* || Utilities */
@@ -65,6 +58,7 @@ img {
 /* Adjust container width for smaller screens */
 @media screen and (max-width:1000px) {  
     #container {
-        width: 100%;
+        width: auto;
+        padding: 1.5em;
     }
 }
