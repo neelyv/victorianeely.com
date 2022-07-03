@@ -1,0 +1,5 @@
+docs/*
+!docs/.gitkeep
+
+.jekyll-cache/
+.sass-cache/
