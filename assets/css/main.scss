@@ -28,7 +28,26 @@ ol ol {
 	list-style-type: lower-alpha;
 }
 
+@media screen and (max-width:600px) { 
+    #container {
+        width: 100%;
+    }
+}
+
+/* || Sitewide */
+#container {
+    width: 70%;
+    margin: 0 auto 3em auto;
+    padding: .2em;
+}
+
+/* || Utilities */
+.img-right {
+    float: right;
+}
+
 /* || Mobile settings */
+
 /* Make images responsive for mobile */
 img {
     width: auto;
@@ -39,22 +58,13 @@ img {
 /* Make image disappear on small screens */
 @media screen and (max-width:600px) {  
     img.nonessential {
-    display: none;
+        display: none;
     }
+}
 
+/* Adjust container width for smaller screens */
+@media screen and (max-width:1000px) {  
     #container {
         width: 100%;
     }
-}
-  
-
-/* || Sitewide */
-#container {
-    width: 70%;
-    margin: 0 auto 3em auto;
-}
-
-/* || Utilities */
-.img-right {
-    float: right;
 }
