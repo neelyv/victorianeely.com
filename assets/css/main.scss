@@ -28,12 +28,21 @@ ol ol {
 	list-style-type: lower-alpha;
 }
 
+/* || Mobile settings */
 /* Make images responsive for mobile */
 img {
     width: auto;
     max-width: 100%;
     height: auto;
 }
+
+/* Make image disappear on small screens */
+@media screen and (max-width:600px) {  
+    .nonessential img {
+      display: none;
+    }
+  }
+  
 
 /* || Sitewide */
 #container {
