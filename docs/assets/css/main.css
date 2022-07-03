@@ -25,6 +25,6 @@ img { width: auto; max-width: 100%; height: auto; }
 @media screen and (max-width: 600px) { img.nonessential { display: none; } }
 
 /* Adjust container width for smaller screens */
-@media screen and (max-width: 1000px) { #container { width: auto; padding: 1.5em; } }
+@media screen and (max-width: 1000px) { #container { width: auto; padding: 0 1.5em; } }
 
 /*# sourceMappingURL=main.css.map */
