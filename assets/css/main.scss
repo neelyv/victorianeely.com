@@ -38,10 +38,10 @@ img {
 
 /* Make image disappear on small screens */
 @media screen and (max-width:600px) {  
-    .nonessential img {
-      display: none;
+    img.nonessential {
+    display: none;
     }
-  }
+}
   
 
 /* || Sitewide */
