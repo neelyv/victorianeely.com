@@ -5,7 +5,7 @@ title: "Home"
 
 # Victoria Neely
 
-<img class="img-right" src="assets/images/black-cat.png" alt="Black cat" />
+<img class="img-right nonessential" src="assets/images/black-cat.png" alt="Black cat" />
 Hi, my name is Victoria, and this is where I stash notes about things I'm learning about and projects I'm working on. In my spare time I record audiobook chapters for <a href="https://librivox.org/reader/16022">LibriVox</a> and occasionally play old computer games.
 
 <h2>Articles</h2>

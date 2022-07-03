@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Home - Victoria Neely</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-  <body>
-    <div id="container">
-      <h1 id="victoria-neely">Victoria Neely</h1>
+I"<h1 id="victoria-neely">Victoria Neely</h1>
 
 <p><img class="img-right nonessential" src="assets/images/black-cat.png" alt="Black cat" />
 Hi, my name is Victoria, and this is where I stash notes about things I’m learning about and projects I’m working on. In my spare time I record audiobook chapters for <a href="https://librivox.org/reader/16022">LibriVox</a> and occasionally play old computer games.</p>
@@ -63,8 +53,4 @@ Hi, my name is Victoria, and this is where I stash notes about things I’m lear
 <h2>Contact me</h2>
 
 <p>Feel free to drop me a line at <code>&#104;&#101;&#108;&#108;&#111;&#64;&#118;&#105;&#99;&#116;&#111;&#114;&#105;&#97;&#110;&#101;&#101;&#108;&#121;&#46;&#109;&#101;</code>.</p>
-
-    </div>
-    
-  </body>
-</html>
+:ET
