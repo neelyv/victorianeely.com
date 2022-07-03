@@ -28,6 +28,13 @@ ol ol {
 	list-style-type: lower-alpha;
 }
 
+/* Make images responsive for mobile */
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
 /* || Sitewide */
 #container {
     width: 70%;
