@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Convert a Jekyll Gem-Based Theme to a Regular Theme - Victoria Neely</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="convert-a-jekyll-gem-based-theme-to-a-regular-theme">Convert a Jekyll Gem-Based Theme to a Regular Theme</h1>
+
+<p>Note that if you convert a gem-based Jekyll theme to a regular theme that lives in your website’s directory, you won’t receive theme updates.</p>
+
+<p>To convert your theme:</p>
+
+<ol>
+  <li>Find the location of the gem directory. In a terminal or command line window, enter <code class="language-plaintext highlighter-rouge">bundle info --path minima</code> (replace <code class="language-plaintext highlighter-rouge">minima</code> with the actual name of the theme).</li>
+  <li>Copy all the folders from the gem’s directory into your Jekyll site directory; no need to copy over the <code class="language-plaintext highlighter-rouge">LICENSE.txt</code> or <code class="language-plaintext highlighter-rouge">README.md</code> files.</li>
+  <li>Find the runtime dependency plugins used by the theme:
+    <ul>
+      <li>The plugins will be in the theme’s <code class="language-plaintext highlighter-rouge">.gemspec</code> file, which should be in the <code class="language-plaintext highlighter-rouge">specifications</code> folder of your Ruby installation directory (e.g., <code class="language-plaintext highlighter-rouge">/usr/lib/ruby/gems/3.0.0/specifications/minima-2.5.1.gemspec</code>).</li>
+      <li>The plugins you’re looking for will should look something like the following:
+  <code class="language-plaintext highlighter-rouge">s.add_runtime_dependency(%q&lt;jekyll-feed&gt;.freeze, ["~&gt; 0.9"])</code>
+  <code class="language-plaintext highlighter-rouge">s.add_dependency(%q&lt;jekyll-seo-tag&gt;.freeze, ["~&gt; 2.1"])</code></li>
+    </ul>
+  </li>
+  <li>In your Jekyll website folder, open the <code class="language-plaintext highlighter-rouge">Gemfile</code>. In the <code class="language-plaintext highlighter-rouge">group :jekyll_plugins do</code> section, add references to the runtime plugins like so:
+ <code class="language-plaintext highlighter-rouge">group :jekyll_plugins do</code>
+   <code class="language-plaintext highlighter-rouge">gem "jekyll-feed", "~&gt; 0.12"</code>
+   <code class="language-plaintext highlighter-rouge">gem "jekyll-seo-tag", "~&gt; 2.7"</code>
+ <code class="language-plaintext highlighter-rouge">end</code>
+ Note: If one or more of the plugins are already listed in the <code class="language-plaintext highlighter-rouge">Gemfile</code>, just leave them in place.</li>
+  <li>In the terminal, enter <code class="language-plaintext highlighter-rouge">bundle update</code>.</li>
+  <li>In your Jekyll site, remove the reference to the theme gem:
+    <ol>
+      <li>Open the <code class="language-plaintext highlighter-rouge">Gemfile</code> and remove <code class="language-plaintext highlighter-rouge">gem "minima", "~&gt; 2.5"</code>.</li>
+      <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and remove <code class="language-plaintext highlighter-rouge">theme: minima</code>.</li>
+    </ol>
+  </li>
+</ol>
+
+
+<a href="/index.html">Go back</a>
+    </div>
+    
+  </body>
+</html>

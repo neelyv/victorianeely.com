@@ -1,0 +1,40 @@
+---
+---
+
+@import "main";
+
+/* || General styles */
+body {
+    font-size: 1.1em;
+    background-color: #fff;
+    color: #000;
+}
+
+a:link {
+    color: rgb(19, 21, 150);
+}
+
+code {
+    color: rgb(179, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+li {
+    margin-bottom: .5em;
+}
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+/* || Sitewide */
+#container {
+    width: 70%;
+    margin: 0 auto 3em auto;
+}
+
+/* || Utilities */
+.img-right {
+    float: right;
+}
