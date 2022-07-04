@@ -17,14 +17,18 @@ To convert your theme:
 3. Find the runtime dependency plugins used by the theme:
 	- The plugins will be in the theme's `.gemspec` file, which should be in the `specifications` folder of your Ruby installation directory (e.g., `/usr/lib/ruby/gems/3.0.0/specifications/minima-2.5.1.gemspec`).
 	- The plugins you're looking for will should look something like the following:
-		`s.add_runtime_dependency(%q<jekyll-feed>.freeze, ["~> 0.9"])`
-		`s.add_dependency(%q<jekyll-seo-tag>.freeze, ["~> 2.1"])`
+```
+		s.add_runtime_dependency(%q<jekyll-feed>.freeze, ["~> 0.9"])
+		s.add_dependency(%q<jekyll-seo-tag>.freeze, ["~> 2.1"])
+```
 4. In your Jekyll website folder, open the `Gemfile`. In the `group :jekyll_plugins do` section, add references to the runtime plugins like so:
-	`group :jekyll_plugins do`
-	  `gem "jekyll-feed", "~> 0.12"`
-	  `gem "jekyll-seo-tag", "~> 2.7"`
-	`end`
-	Note: If one or more of the plugins are already listed in the `Gemfile`, just leave them in place.
+```
+	group :jekyll_plugins do
+	  gem "jekyll-feed", "~> 0.12"
+	  gem "jekyll-seo-tag", "~> 2.7"
+	end
+```
+	**Note:** If one or more of the plugins are already listed in the `Gemfile`, just leave them in place.
 5. In the terminal, enter `bundle update`.
 6. In your Jekyll site, remove the reference to the theme gem:
 	1. Open the `Gemfile` and remove `gem "minima", "~> 2.5"`.

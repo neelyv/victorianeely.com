@@ -21,16 +21,20 @@
     <ul>
       <li>The plugins will be in the theme’s <code class="language-plaintext highlighter-rouge">.gemspec</code> file, which should be in the <code class="language-plaintext highlighter-rouge">specifications</code> folder of your Ruby installation directory (e.g., <code class="language-plaintext highlighter-rouge">/usr/lib/ruby/gems/3.0.0/specifications/minima-2.5.1.gemspec</code>).</li>
       <li>The plugins you’re looking for will should look something like the following:
-  <code class="language-plaintext highlighter-rouge">s.add_runtime_dependency(%q&lt;jekyll-feed&gt;.freeze, ["~&gt; 0.9"])</code>
-  <code class="language-plaintext highlighter-rouge">s.add_dependency(%q&lt;jekyll-seo-tag&gt;.freeze, ["~&gt; 2.1"])</code></li>
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  s.add_runtime_dependency(%q&lt;jekyll-feed&gt;.freeze, ["~&gt; 0.9"])
+  s.add_dependency(%q&lt;jekyll-seo-tag&gt;.freeze, ["~&gt; 2.1"])
+</code></pre></div>        </div>
+      </li>
     </ul>
   </li>
   <li>In your Jekyll website folder, open the <code class="language-plaintext highlighter-rouge">Gemfile</code>. In the <code class="language-plaintext highlighter-rouge">group :jekyll_plugins do</code> section, add references to the runtime plugins like so:
- <code class="language-plaintext highlighter-rouge">group :jekyll_plugins do</code>
-   <code class="language-plaintext highlighter-rouge">gem "jekyll-feed", "~&gt; 0.12"</code>
-   <code class="language-plaintext highlighter-rouge">gem "jekyll-seo-tag", "~&gt; 2.7"</code>
- <code class="language-plaintext highlighter-rouge">end</code>
- Note: If one or more of the plugins are already listed in the <code class="language-plaintext highlighter-rouge">Gemfile</code>, just leave them in place.</li>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> group :jekyll_plugins do
+   gem "jekyll-feed", "~&gt; 0.12"
+   gem "jekyll-seo-tag", "~&gt; 2.7"
+ end
+</code></pre></div>    </div>
+    <p><strong>Note:</strong> If one or more of the plugins are already listed in the <code class="language-plaintext highlighter-rouge">Gemfile</code>, just leave them in place.</p>
+  </li>
   <li>In the terminal, enter <code class="language-plaintext highlighter-rouge">bundle update</code>.</li>
   <li>In your Jekyll site, remove the reference to the theme gem:
     <ol>
