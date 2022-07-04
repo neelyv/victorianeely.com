@@ -15,5 +15,5 @@ To create a new blank Jekyll site without any pre-installed themes:
 3. To install a Gemfile in your website directory, in a terminal or command line window, enter `bundle init`.  This will create your Gemfile for you.
 4. To add Jekyll as a dependency, enter `bundle add jekyll`.
 5. <strong>If you are using Ruby version 3.0.0 or higher:</strong> Add webrick to your dependencies with the command `bundle add webrick`. Otherwise, skip to the next step.
-6. To serve your website locally, enter `bundle exec jekyll serve`
+6. To serve your website locally, enter `bundle exec jekyll serve`.
 7. Go to your website at <code>http://localhost:4000/</code>.
