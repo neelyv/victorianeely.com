@@ -11,6 +11,8 @@ li { margin-bottom: .5em; }
 
 ol ol { list-style-type: lower-alpha; }
 
+ol ul, ul ul { margin-top: .5em; }
+
 /* || Sitewide */
 #container { width: 70%; margin: 0 auto 3em auto; }
 

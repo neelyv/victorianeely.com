@@ -28,6 +28,10 @@ ol ol {
 	list-style-type: lower-alpha;
 }
 
+ol ul, ul ul {
+    margin-top: .5em;
+}
+
 /* || Sitewide */
 #container {
     width: 70%;
