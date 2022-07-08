@@ -12,7 +12,6 @@ If you do much recording for LibriVox, you'll probably come across words that yo
 
 1. Make a list of the words you're not familiar with. I usually list them in a text file so I can make quick additions later.
 2. Learn how to pronounce each word. Try the following resources:
-
 	- **Online dictionaries:** For English words, try <a href="https://www.dictionary.com/">Dictionary.com</a> or <a href="https://www.merriam-webster.com/">Merriam-Webster</a>. Both have audio files so you can hear someone say the words.
 	- **Google Translate:** If you're having trouble with a phrase in a foreign language, try <a href="https://translate.google.com/">Google Translate</a>. Not only does it translate words and phrases for you, it lets you listen to them too.
 	- **YouTube:** For unusual last names or words that are no longer in common use, you may have luck finding something on YouTube.
