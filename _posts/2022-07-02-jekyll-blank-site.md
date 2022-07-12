@@ -10,7 +10,7 @@ tag: Jekyll
 
 To create a new blank Jekyll site without any pre-installed themes:
 
-1. Run the command `jekyll new sitename --blank` (replace `newsite` with the name of your site).
+1. In a terminal or command line window, run the command `jekyll new sitename --blank` (replace `newsite` with the name of your site).
 2. `cd` to your new website folder.
 3. To install a Gemfile in your website directory, in a terminal or command line window, enter `bundle init`.  This will create your Gemfile for you.
 4. To add Jekyll as a dependency, enter `bundle add jekyll`.
