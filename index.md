@@ -36,3 +36,5 @@ Hi, my name is Victoria, and this is where I stash notes about things I'm learni
 <h2>Contact me</h2>
 
 Feel free to drop me a line at <code>&#104;&#101;&#108;&#108;&#111;&#64;&#118;&#105;&#99;&#116;&#111;&#114;&#105;&#97;&#110;&#101;&#101;&#108;&#121;&#46;&#109;&#101;</code>.
+
+You can also find me on <a href="https://github.com/neelyv">GitHub</a> and <a href="https://www.linkedin.com/in/victorianeely">LinkedIn</a>.
