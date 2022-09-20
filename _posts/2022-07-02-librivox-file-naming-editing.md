@@ -6,7 +6,7 @@ category: LibriVox
 tag: LibriVox
 ---
 
-# My file naming and editing system for LibriVox recordings
+# My File Naming and Editing System for LibriVox Recordings
 
 When recording audiobook chapters for LibriVox, I have a system for naming and working on the audio files I've recorded in Audacity.
 
