@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My file naming and editing system for LibriVox recordings"
+title: "My File Naming and Editing System for LibriVox Recordings"
 date: 2022-07-02 00:00:00
 category: LibriVox
 tag: LibriVox
